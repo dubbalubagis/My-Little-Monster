@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F71445891D12171600C4313D /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71445881D12171600C4313D /* MainScreenVC.swift */; };
 		F73D7BF81CE8E2C9001595B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D7BF71CE8E2C9001595B6 /* AppDelegate.swift */; };
-		F73D7BFA1CE8E2C9001595B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D7BF91CE8E2C9001595B6 /* ViewController.swift */; };
+		F73D7BFA1CE8E2C9001595B6 /* RockMonsterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D7BF91CE8E2C9001595B6 /* RockMonsterVC.swift */; };
 		F73D7BFD1CE8E2C9001595B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73D7BFB1CE8E2C9001595B6 /* Main.storyboard */; };
 		F73D7BFF1CE8E2C9001595B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73D7BFE1CE8E2C9001595B6 /* Assets.xcassets */; };
 		F73D7C021CE8E2C9001595B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73D7C001CE8E2C9001595B6 /* LaunchScreen.storyboard */; };
+		F759191A1CFA1364002FEFF4 /* MonsterImgClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75919191CFA1364002FEFF4 /* MonsterImgClass.swift */; };
+		F79118411CFA2DFC004C6253 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F79118401CFA2DFC004C6253 /* cave-music.mp3 */; };
+		F79118431CFA2E38004C6253 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = F79118421CFA2E38004C6253 /* bite.wav */; };
+		F79118451CFA2E3F004C6253 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = F79118441CFA2E3F004C6253 /* death.wav */; };
+		F79118471CFA2E46004C6253 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = F79118461CFA2E46004C6253 /* heart.wav */; };
+		F79118491CFA2E4D004C6253 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = F79118481CFA2E4D004C6253 /* skull.wav */; };
+		F7A1A02F1D144FB5008388EA /* moley-music.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7A1A02E1D144FB5008388EA /* moley-music.wav */; };
+		F7ABCCFE1CEB94DB000F4DF6 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABCCFD1CEB94DB000F4DF6 /* DragImg.swift */; };
+		F7B768E81D0DD69C005A5351 /* MoleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B768E71D0DD69C005A5351 /* MoleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F71445881D12171600C4313D /* MainScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
 		F73D7BF41CE8E2C9001595B6 /* My Little Monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Little Monster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D7BF71CE8E2C9001595B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F73D7BF91CE8E2C9001595B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F73D7BF91CE8E2C9001595B6 /* RockMonsterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockMonsterVC.swift; sourceTree = "<group>"; };
 		F73D7BFC1CE8E2C9001595B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F73D7BFE1CE8E2C9001595B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F73D7C011CE8E2C9001595B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F73D7C031CE8E2C9001595B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75919191CFA1364002FEFF4 /* MonsterImgClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImgClass.swift; sourceTree = "<group>"; };
+		F79118401CFA2DFC004C6253 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		F79118421CFA2E38004C6253 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		F79118441CFA2E3F004C6253 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		F79118461CFA2E46004C6253 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		F79118481CFA2E4D004C6253 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
+		F7A1A02E1D144FB5008388EA /* moley-music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "moley-music.wav"; sourceTree = "<group>"; };
+		F7ABCCFD1CEB94DB000F4DF6 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		F7B768E71D0DD69C005A5351 /* MoleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +74,22 @@
 		F73D7BF61CE8E2C9001595B6 /* My Little Monster */ = {
 			isa = PBXGroup;
 			children = (
+				F79118401CFA2DFC004C6253 /* cave-music.mp3 */,
+				F7A1A02E1D144FB5008388EA /* moley-music.wav */,
+				F79118421CFA2E38004C6253 /* bite.wav */,
+				F79118441CFA2E3F004C6253 /* death.wav */,
+				F79118461CFA2E46004C6253 /* heart.wav */,
+				F79118481CFA2E4D004C6253 /* skull.wav */,
 				F73D7BF71CE8E2C9001595B6 /* AppDelegate.swift */,
-				F73D7BF91CE8E2C9001595B6 /* ViewController.swift */,
+				F71445881D12171600C4313D /* MainScreenVC.swift */,
+				F73D7BF91CE8E2C9001595B6 /* RockMonsterVC.swift */,
+				F7B768E71D0DD69C005A5351 /* MoleVC.swift */,
 				F73D7BFB1CE8E2C9001595B6 /* Main.storyboard */,
 				F73D7BFE1CE8E2C9001595B6 /* Assets.xcassets */,
 				F73D7C001CE8E2C9001595B6 /* LaunchScreen.storyboard */,
 				F73D7C031CE8E2C9001595B6 /* Info.plist */,
+				F7ABCCFD1CEB94DB000F4DF6 /* DragImg.swift */,
+				F75919191CFA1364002FEFF4 /* MonsterImgClass.swift */,
 			);
 			path = "My Little Monster";
 			sourceTree = "<group>";
@@ -123,7 +153,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79118491CFA2E4D004C6253 /* skull.wav in Resources */,
+				F7A1A02F1D144FB5008388EA /* moley-music.wav in Resources */,
+				F79118431CFA2E38004C6253 /* bite.wav in Resources */,
+				F79118451CFA2E3F004C6253 /* death.wav in Resources */,
+				F79118471CFA2E46004C6253 /* heart.wav in Resources */,
 				F73D7C021CE8E2C9001595B6 /* LaunchScreen.storyboard in Resources */,
+				F79118411CFA2DFC004C6253 /* cave-music.mp3 in Resources */,
 				F73D7BFF1CE8E2C9001595B6 /* Assets.xcassets in Resources */,
 				F73D7BFD1CE8E2C9001595B6 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F73D7BFA1CE8E2C9001595B6 /* ViewController.swift in Sources */,
+				F759191A1CFA1364002FEFF4 /* MonsterImgClass.swift in Sources */,
+				F7ABCCFE1CEB94DB000F4DF6 /* DragImg.swift in Sources */,
+				F73D7BFA1CE8E2C9001595B6 /* RockMonsterVC.swift in Sources */,
+				F71445891D12171600C4313D /* MainScreenVC.swift in Sources */,
 				F73D7BF81CE8E2C9001595B6 /* AppDelegate.swift in Sources */,
+				F7B768E81D0DD69C005A5351 /* MoleVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +329,7 @@
 				F73D7C081CE8E2C9001595B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
